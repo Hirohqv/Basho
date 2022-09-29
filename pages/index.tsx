@@ -146,7 +146,7 @@ const Home: NextPage = () => {
         <div className="grid justify-center gap-10 text-center md:grid-cols-2 lg:grid-cols-3">
           <div>
             <Image
-              src="/static/img/work/Telenor_logo.svg.png"
+              src="/static/img/clients/Telenor.png"
               alt="Telenor"
               height={100}
               width={300}
@@ -155,7 +155,7 @@ const Home: NextPage = () => {
           </div>
           <div>
             <Image
-              src="/static/img/work/statenslegemiddelverk.svg"
+              src="/static/img/clients/slv.svg"
               alt="Statens Legemiddelverk"
               height={100}
               width={300}
@@ -165,7 +165,7 @@ const Home: NextPage = () => {
 
           <div>
             <Image
-              src="/static/img/work/nokas.png"
+              src="/static/img/clients/nokas.png"
               alt="Nokas"
               height={100}
               width={300}
@@ -174,7 +174,7 @@ const Home: NextPage = () => {
           </div>
           <div>
             <Image
-              src="/static/img/work/SpareBank1.svg.png"
+              src="/static/img/clients/Sb1.png"
               alt="Sparebank1 Utvikling"
               height={100}
               width={300}
@@ -183,7 +183,7 @@ const Home: NextPage = () => {
           </div>
           <div>
             <Image
-              src="/static/img/work/Hdir logo.svg"
+              src="/static/img/clients/Hdir.svg"
               alt="Helsedirektoratet"
               height={100}
               width={300}
@@ -192,7 +192,7 @@ const Home: NextPage = () => {
           </div>
           <div>
             <Image
-              src="/static/img/work/Rema_1000_logo.svg.png"
+              src="/static/img/clients/Rema_1000.png"
               alt="Rema 1000"
               height={100}
               width={300}
@@ -201,7 +201,7 @@ const Home: NextPage = () => {
           </div>
           <div>
             <Image
-              src="/static/img/work/Nav.png"
+              src="/static/img/clients/Nav.png"
               alt="NAV"
               height={100}
               width={300}
@@ -210,7 +210,7 @@ const Home: NextPage = () => {
           </div>
           <div>
             <Image
-              src="/static/img/work/Storebrand_logo.svg.png"
+              src="/static/img/clients/Storebrand.png"
               alt="Storebrand"
               height={100}
               width={300}
@@ -219,7 +219,7 @@ const Home: NextPage = () => {
           </div>
           <div>
             <Image
-              src="/static/img/work/Kongsberg_Gruppen_logo.svg.png"
+              src="/static/img/clients/Kongsberg_Gruppen.png"
               alt="Kongsberg Group"
               height={100}
               width={300}
