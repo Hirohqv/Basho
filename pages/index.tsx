@@ -174,7 +174,7 @@ const Home: NextPage = () => {
           </div>
           <div>
             <Image
-              src="/static/img/clients/Sb1.png"
+              src="/static/img/clients/sb1.png"
               alt="Sparebank1 Utvikling"
               height={100}
               width={300}
