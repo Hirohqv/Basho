@@ -142,7 +142,7 @@ const Home: NextPage = () => {
         {/* Clients start*/}
         <div className="py-6 pb-10 pt-10">
           <h1 className="text-center text-4xl">Clients I´ve worked with</h1>
-          <p className="text-center text-skydark-200"> Request my CV on LinkedIn for full and more detailed description of my experience.</p>
+          <p className="text-center text-skydark-200"> Request my CV on <a className="font-bold text-skydark-400" href="https://www.linkedin.com/in/hirohqv/">LinkedIn </a> for full and more detailed description of my experience.</p>
         </div>
         <div className="grid justify-center gap-10 text-center md:grid-cols-2 lg:grid-cols-3">
           <div>
