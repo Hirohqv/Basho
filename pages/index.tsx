@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { NAVIGATION, avatarUrl, siteTitle } from "../consts";
 import Typewriter from "typewriter-effect";
+import { Icon } from "@mui/material";
 
 const Home: NextPage = () => {
   return (
@@ -38,7 +39,7 @@ const Home: NextPage = () => {
               alt="avatar"
               height={250}
               width={250}
-              className="rounded-full"
+              className="rounded-3xl"
             />
           </div>
           <div className=" pt-8 pb-8 xl:col-span-2">
@@ -52,36 +53,38 @@ const Home: NextPage = () => {
               interdisciplinary product teams.
             */}
               I am a technical consultant who can fulfill various roles as
-              <Typewriter
-                options={{
-                  loop: true,
-                }}
-                onInit={(typewriter) => {
-                  typewriter
-                    .start()
-                    .typeString("project manager")
-                    .pauseFor(400)
-                    .deleteAll()
-                    .typeString("product owner")
-                    .pauseFor(400)
-                    .deleteAll()
-                    .typeString("advisor")
-                    .pauseFor(400)
-                    .deleteAll()
-                    .typeString("scrum master")
-                    .pauseFor(400)
-                    .deleteAll()
-                    .typeString("architect")
-                    .pauseFor(400)
-                    .deleteAll()
-                    .typeString("test manager")
-                    .pauseFor(400)
-                    .deleteAll()
-                    .typeString("test developer")
-                    .pauseFor(400)
-                    .deleteAll();
-                }}
-              />{" "}
+              <div className="text-xl">
+                <Typewriter
+                  options={{
+                    loop: true,
+                  }}
+                  onInit={(typewriter) => {
+                    typewriter
+                      .start()
+                      .typeString("project manager")
+                      .pauseFor(400)
+                      .deleteAll()
+                      .typeString("product owner")
+                      .pauseFor(400)
+                      .deleteAll()
+                      .typeString("advisor")
+                      .pauseFor(400)
+                      .deleteAll()
+                      .typeString("scrum master")
+                      .pauseFor(400)
+                      .deleteAll()
+                      .typeString("architect")
+                      .pauseFor(400)
+                      .deleteAll()
+                      .typeString("test manager")
+                      .pauseFor(400)
+                      .deleteAll()
+                      .typeString("test developer")
+                      .pauseFor(400)
+                      .deleteAll();
+                  }}
+                />{" "}
+              </div>
               in development projects with a focus on agile development in
               autonomous development teams and interdisciplinary product teams.
             </div>
@@ -142,9 +145,19 @@ const Home: NextPage = () => {
         {/* Clients start*/}
         <div className="py-6 pb-10 pt-10">
           <h1 className="text-center text-4xl">Clients I´ve worked with</h1>
-          <p className="text-center text-skydark-200"> Request my CV on <a className="font-bold text-skydark-400" href="https://www.linkedin.com/in/hirohqv/">LinkedIn </a> for full and more detailed description of my experience.</p>
+          <p className="text-center text-skydark-200">
+            {" "}
+            Request my CV on{" "}
+            <a
+              className="font-bold text-skydark-400"
+              href={NAVIGATION.social.at(0)?.href}
+            >
+              LinkedIn{" "}
+            </a>{" "}
+            for full and more detailed description of my experience.
+          </p>
         </div>
-        <div className="grid justify-center gap-10 text-center md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid justify-center gap-10 text-center md:grid-cols-2 lg:grid-cols-3 pb-10">
           <div>
             <Image
               src="/static/img/clients/Telenor.png"
@@ -231,10 +244,19 @@ const Home: NextPage = () => {
         {/* Clients end*/}
       </main>
 
-      <footer className="flex  h-24 w-full items-center justify-center mb-2 space-x-2 text-lg text-gray-700 mt-auto">
-        <div>{`© ${new Date().getFullYear()}`}</div>
-        <div>{` • `}</div>
-        <div>{siteTitle}</div>
+      <footer className="flex  h-24 w-full items-center justify-center mb-2 space-x-2 text-lg text-gray-700 mt-auto flex-col ">
+        <div className="flex mb-5 space-x-4 text-skydark-400 ">
+          {NAVIGATION.social.map(({ href, muiIcon }) => (
+            <a href={href}>
+              <Icon component={muiIcon} fontSize="large" />
+            </a>
+          ))}
+        </div>
+        <div className="mb-2 flex space-x-2 text-lg text-skydark-400">
+          <div>{`© ${new Date().getFullYear()}`}</div>
+          <div>{` • `}</div>
+          <div>{siteTitle}</div>
+        </div>
       </footer>
     </div>
   );

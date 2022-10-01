@@ -1,3 +1,4 @@
+import { GitHub, Twitter, LinkedIn } from "@mui/icons-material";
 export const NAVIGATION = {
     main: [
         { name: "Home", href: "/"},
@@ -6,16 +7,16 @@ export const NAVIGATION = {
     ],
     social: [
         {
-            name: "Linkedln",
-            href: "https://www.linkedin.com/in/hirohqv"
+            href: "https://www.linkedin.com/in/hirohqv",
+            muiIcon: LinkedIn
         },
         {
-            name: "Twitter",
-            href: "https://www.linkedin.com/in/hirohqv"
+            href: "https://twitter.com/HuyQV",
+            muiIcon: Twitter
         },
         {
-            name: "Github",
-            href: "https://www.linkedin.com/in/hirohqv"
+            href: "https://github.com/Hirohqv",
+            muiIcon: GitHub
         }
     ] 
 }
