@@ -19,7 +19,6 @@ const Home: NextPage = () => {
         <ThingsIDo />
         <Clients />
       </main>
-
       <Footer />
     </div>
   );
