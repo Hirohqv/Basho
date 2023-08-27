@@ -2,44 +2,41 @@ export default function ThingsIDo() {
   return (
     <div className="py-6">
       <div>
-        <h1 className=" text-4xl text-center pb-10 pt-10">Things I do</h1>
+        <h1 className=" text-4xl text-center pb-10 pt-10">Areas of Expertise</h1>
       </div>
       <div className="margin:0 grid gap-10 text-center md:grid-cols-2 lg:grid-cols-3">
         <div>
-          <h3 className="text-2xl">Discovery</h3>
-          <p>Continuous customer feedback and user research practices</p>
-        </div>
-        <div>
-          <h3 className="text-2xl">Experimentation</h3>
-          <p>
-            Design and orchestration of experiments to conduct hypothesis
-            testing
+          <h3 className="text-2xl">Agile Expertise</h3>
+          <p>Efficiently applying agile methodologies in autonomous and interdisciplinary teams.
           </p>
         </div>
         <div>
-          <h3 className="text-2xl">Growth</h3>
-          <p>
-            Iterative and data-driven approach to acquisition, retention and
-            revenue.
+          <h3 className="text-2xl">Technical Product Ownership</h3>
+          <p>Overseeing product development from concept to completion.
           </p>
         </div>
         <div>
-          <h3 className="text-2xl">Product</h3>
+          <h3 className="text-2xl">Solution Architecture</h3>
           <p>
-            Working with engineering teams on solutioning and delivery of
-            products
+          Designing scalable, robust, and maintainable solutions for clients.
           </p>
         </div>
         <div>
-          <h3 className="text-2xl">Automation</h3>
+          <h3 className="text-2xl">Team Leadership</h3>
           <p>
-            Workflows & automation of tedious tasks with APIs, scripts and
-            no-code tools
+          Managing diverse teams, fostering collaboration, and driving performance.
           </p>
         </div>
         <div>
-          <h3 className="text-2xl">MVP</h3>
-          <p>Building lean and rapid prototypes to validate ideas </p>
+          <h3 className="text-2xl">QA & DevOps Development</h3>
+          <p>
+          Ensuring high-quality software delivery through testing and CI/CD processes.
+          </p>
+        </div>
+        <div>
+          <h3 className="text-2xl">Cross-Functional Collaboration</h3>
+          <p>Seamlessly working with stakeholders to align project objectives.
+          </p>
         </div>
       </div>
     </div>

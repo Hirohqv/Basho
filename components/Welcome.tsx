@@ -17,7 +17,7 @@ export default function Welcome() {
       <div className=" pt-8 pb-8 xl:col-span-2">
         <h2 className="text-3xl text-left">Hey, my name is Huy</h2>
         <div className="mt-2 text-left">
-          I am a technical consultant who can fulfill various roles as
+          As IT consultant I am adept at fulfilling multiple roles such as
           <div className="text-xl">
             <Typewriter
               options={{
@@ -26,27 +26,27 @@ export default function Welcome() {
               onInit={(typewriter) => {
                 typewriter
                   .start()
-                  .typeString("techincal project and test manager")
+                  .typeString("Technical Product Owner")
                   .pauseFor(400)
                   .deleteAll()
-                  .typeString("team lead and agile coach")
+                  .typeString("Team lead and Agile Coach")
                   .pauseFor(400)
                   .deleteAll()
                   .typeString("QA and DevOps Engineer")
                   .pauseFor(400)
                   .deleteAll()
-                  .typeString("solution architect")
+                  .typeString("Solution Architect")
                   .pauseFor(400)
                   .deleteAll();
               }}
             />{" "}
           </div>
-          in development projects with a focus on agile development in
-          autonomous development teams and interdisciplinary product teams.
+          My expertise is centered around agile development processes, 
+          particularly within self-sufficient development teams and interdisciplinary product units.
         </div>
         <p className="mt-3 text-left">
-          In my free time, I like to do strength training, cook and other
-          relaxing activities.
+          During my downtime, I take pleasure in pursuing strength training,
+          exploring new culinary creations.
         </p>
       </div>
     </div>
