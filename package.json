@@ -14,6 +14,8 @@
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "sharp": "^0.32.5",
+    "typeface-oswald": "^1.1.13",
+    "typeface-source-sans-pro": "^1.1.13",
     "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {

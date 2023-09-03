@@ -17,7 +17,7 @@ export default function Welcome() {
       <div className=" pt-8 pb-8 xl:col-span-2">
         <h2 className="text-3xl text-left">Hey, my name is Huy</h2>
         <div className="mt-2 text-left">
-          As IT consultant, I am adept at fulfilling multiple roles such as
+          As an IT consultant, I am adept at fulfilling multiple roles such as
           <div className="text-xl">
             <Typewriter
               options={{
