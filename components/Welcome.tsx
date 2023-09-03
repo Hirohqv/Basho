@@ -45,7 +45,7 @@ export default function Welcome() {
           particularly within self-sufficient development teams and interdisciplinary product units.
         </div>
         <p className="mt-3 text-left">
-          During my downtime, I take pleasure in pursuing strength training,
+          During my downtime, I take pleasure in pursuing strength training and
           exploring new culinary creations.
         </p>
       </div>

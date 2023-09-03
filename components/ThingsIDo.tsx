@@ -11,8 +11,9 @@ export default function ThingsIDo() {
           </p>
         </div>
         <div>
-          <h3 className="text-2xl">Technical Product Ownership</h3>
-          <p>Overseeing product development from concept to completion.
+          <h3 className="text-2xl">Team Leadership</h3>
+          <p>
+          Managing diverse teams, fostering collaboration, and driving performance.
           </p>
         </div>
         <div>
@@ -22,9 +23,8 @@ export default function ThingsIDo() {
           </p>
         </div>
         <div>
-          <h3 className="text-2xl">Team Leadership</h3>
-          <p>
-          Managing diverse teams, fostering collaboration, and driving performance.
+          <h3 className="text-2xl">Technical Product Ownership</h3>
+          <p>Overseeing product development from concept to completion.
           </p>
         </div>
         <div>
