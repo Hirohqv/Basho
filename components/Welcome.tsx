@@ -26,16 +26,19 @@ export default function Welcome() {
               onInit={(typewriter) => {
                 typewriter
                   .start()
-                  .typeString("Technical Product Owner")
+                  .typeString("Technical Product Manager & Project Manager")
                   .pauseFor(400)
                   .deleteAll()
-                  .typeString("Team lead and Agile Coach")
+                  .typeString("Team Lead & Tech Lead")
                   .pauseFor(400)
                   .deleteAll()
-                  .typeString("QA and DevOps Engineer")
+                  .typeString("Cloud & DevOps Engineer")
                   .pauseFor(400)
                   .deleteAll()
-                  .typeString("Solution Architect")
+                  .typeString("Cloud Architect & Developer")
+                  .pauseFor(400)
+                  .deleteAll()
+                  .typeString("Data Engineer & Developer")
                   .pauseFor(400)
                   .deleteAll();
               }}
