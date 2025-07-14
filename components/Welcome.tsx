@@ -15,9 +15,12 @@ export default function Welcome() {
         />
       </div>
       <div className=" pt-8 pb-8 xl:col-span-2">
-        <h2 className="text-3xl text-left">Hey, my name is Huy</h2>
+        <h2 className="text-3xl text-left">I accelerate enterprise transformation by architecting AI-infused, cloud-native platforms</h2>
+        <p className="mt-2 text-left">
+          Bridging strategic vision and hands-on delivery to modernize core systems with intelligent, scalable infrastructure.
+        </p>
         <div className="mt-2 text-left">
-          As an IT consultant, I am adept at fulfilling multiple roles such as
+          I work alongside teams wearing these hats:
           <div className="text-xl">
             <Typewriter
               options={{
@@ -26,30 +29,30 @@ export default function Welcome() {
               onInit={(typewriter) => {
                 typewriter
                   .start()
-                  .typeString("Technical Product Manager & Project Manager")
+                  .typeString("Technical Product Owner & Lead")
                   .pauseFor(400)
                   .deleteAll()
-                  .typeString("Team Lead & Tech Lead")
+                  .typeString("Solution & Enterprise Architect")
                   .pauseFor(400)
                   .deleteAll()
                   .typeString("Cloud & DevOps Engineer")
                   .pauseFor(400)
                   .deleteAll()
-                  .typeString("Cloud Architect & Developer")
+                  .typeString("AI Strategy & Automation Lead")
                   .pauseFor(400)
                   .deleteAll()
-                  .typeString("Data Engineer & Developer")
-                  .pauseFor(400)
-                  .deleteAll();
               }}
             />{" "}
           </div>
-          My expertise is centered around agile development processes, 
-          particularly within self-sufficient development teams and interdisciplinary product units.
         </div>
-        <p className="mt-3 text-left">
-          During my downtime, I take pleasure in pursuing strength training and
-          exploring new culinary creations.
+        {/* Supporting Line */}
+        <p className="mt-6 text-base text-gray-700 text-left max-w-2xl">
+          From kickoff workshops to CI/CD pipelines and observability—delivering end-to-end solutions in autonomous, cross-functional teams.
+        </p>
+
+        {/* Downtime Note */}
+        <p className="mt-4 text-sm text-gray-500 text-left">
+          Outside work, you’ll find me strengthening at the gym or crafting new recipes in the kitchen.
         </p>
       </div>
     </div>
