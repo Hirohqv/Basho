@@ -8,37 +8,37 @@ export default function ThingsIDo() {
         <div className="bg-[#ffffff] rounded-xl p-6 shadow-sm">
           <h3 className="text-2xl mb-3">Agile Leadership & Product Ownership</h3>
           <p>
-            Accelerating delivery by serving as Product Owner and Product Lead—guiding cross-functional product teams through structured sprints, risk-driven planning and continuous feedback loops.
+            I step in as Product Owner or Product Lead on complex initiatives — keeping teams aligned, backlogs sharp, and delivery moving without the overhead.
           </p>
         </div>
         <div className="bg-[#ffffff] rounded-xl p-6 shadow-sm">
           <h3 className="text-2xl mb-3">Enterprise & Solution Architecture</h3>
           <p>
-            Crafting resilient, future-proof systems that evolve with business needs and scale seamlessly.
+            I design systems that don't become legacy two years later — from integration patterns to event-driven architecture, built to scale with your business.
           </p>
         </div>
         <div className="bg-[#ffffff] rounded-xl p-6 shadow-sm">
           <h3 className="text-2xl mb-3">Cloud & Platform Strategy</h3>
           <p>
-            Defining PaaS roadmaps, governance and security best practices for robust, cost-efficient cloud platforms.
+            Whether you're migrating to Azure, AWS or GCP — or already there and struggling with governance and costs — I define the platform strategy and make it stick.
           </p>
         </div>
         <div className="bg-[#ffffff] rounded-xl p-6 shadow-sm">
           <h3 className="text-2xl mb-3">AI & Automation</h3>
           <p>
-            Designing Copilot-driven workflows and intelligent services to boost productivity and drive adoption.
+            I help organizations move beyond AI pilots — embedding Copilot and intelligent services into real workflows that teams actually adopt and trust.
           </p>
         </div>
         <div className="bg-[#ffffff] rounded-xl p-6 shadow-sm">
           <h3 className="text-2xl mb-3">DevOps & SRE</h3>
           <p>
-            Implementing IaC, CI/CD pipelines and proactive monitoring to ensure rapid, reliable releases.
+            From GitHub Actions to Terraform and observability — I build the delivery machinery that lets your teams ship confidently and sleep at night.
           </p>
         </div>
         <div className="bg-[#ffffff] rounded-xl p-6 shadow-sm">
           <h3 className="text-2xl mb-3">Strategic Advisory</h3>
           <p>
-            Bridging IT and business—translating strategy into roadmaps, governance models and measurable ROI.
+            I speak both boardroom and codebase. When IT and business are misaligned, I bridge the gap — turning ambiguous strategy into concrete roadmaps with real ROI.
           </p>
         </div>
       </div>

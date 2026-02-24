@@ -15,9 +15,9 @@ export default function Welcome() {
         />
       </div>
       <div className="flex-1">
-        <h2 className="text-3xl text-left">I accelerate enterprise transformation by architecting AI-infused, cloud-native platforms</h2>
+        <h2 className="text-3xl text-left">Senior tech consultant — I help Norwegian enterprises ship better, faster</h2>
         <p className="mt-2 text-left">
-          Bridging strategic vision and hands-on delivery to modernize core systems with intelligent, scalable infrastructure.
+          With experience across public sector, finance, telecom, retail and defence — I've led architecture, delivery and platform work at organizations like Telenor, NAV, Storebrand and Kongsberg.
         </p>
         <div className="mt-2 text-left">
           I work alongside teams wearing these hats:
@@ -47,12 +47,7 @@ export default function Welcome() {
         </div>
         {/* Supporting Line */}
         <p className="mt-6 text-base text-skydark-500 text-left max-w-2xl">
-          From kickoff workshops to CI/CD pipelines and observability—delivering end-to-end solutions in autonomous, cross-functional teams.
-        </p>
-
-        {/* Downtime Note */}
-        <p className="mt-4 text-sm text-skydark-400 text-left">
-          Outside work, you’ll find me training at the gym or crafting new recipes in the kitchen.
+          Available for senior consultant, tech lead, or interim roles — I plug in from day one and deliver.
         </p>
 
         {/* CTA */}
