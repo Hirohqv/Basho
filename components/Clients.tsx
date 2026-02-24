@@ -8,14 +8,15 @@ export default function Clients() {
         <h2 className="text-center text-4xl pb-2">Trusted by</h2>
         <p className="text-center text-skydark-400">
           {" "}
-          Request my CV on{" "}
+          A selection of organisations I've delivered for across Norway.{" "}
+          Full experience available on{" "}
           <a
             className="font-bold text-skydark-600"
             href={NAVIGATION.social.at(0)?.href}
           >
-            LinkedIn{" "}
-          </a>{" "}
-          for full and more detailed description of my experience.
+            LinkedIn
+          </a>
+          .
         </p>
       </div>
       <div className="flex flex-wrap justify-center gap-6 pb-10">

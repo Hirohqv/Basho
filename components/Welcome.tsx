@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 
 export default function Welcome() {
   return (
-    <div className="flex flex-col md:flex-row gap-8 items-start py-8">
+    <div className="flex flex-col md:flex-row gap-8 items-start pt-8 pb-4">
       <div className="flex-shrink-0 flex justify-center md:block">
         <Image
           src={avatarUrl}
@@ -38,7 +38,7 @@ export default function Welcome() {
                   .typeString("Cloud & DevOps Engineer")
                   .pauseFor(400)
                   .deleteAll()
-                  .typeString("AI Strategy & Automation Lead")
+                  .typeString("Agentic AI Architect")
                   .pauseFor(400)
                   .deleteAll()
               }}
