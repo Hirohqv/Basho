@@ -4,8 +4,8 @@ import Typewriter from "typewriter-effect";
 
 export default function Welcome() {
   return (
-    <div className="text-centerq items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
-      <div className="flex flex-col items-center space-x-2 pt-8 pb-8">
+    <div className="flex flex-col md:flex-row gap-8 items-start py-8">
+      <div className="flex-shrink-0 flex justify-center md:block">
         <Image
           src={avatarUrl}
           alt="avatar"
@@ -14,7 +14,7 @@ export default function Welcome() {
           className="rounded-3xl"
         />
       </div>
-      <div className=" pt-8 pb-8 xl:col-span-2">
+      <div className="flex-1">
         <h2 className="text-3xl text-left">I accelerate enterprise transformation by architecting AI-infused, cloud-native platforms</h2>
         <p className="mt-2 text-left">
           Bridging strategic vision and hands-on delivery to modernize core systems with intelligent, scalable infrastructure.
@@ -46,14 +46,24 @@ export default function Welcome() {
           </div>
         </div>
         {/* Supporting Line */}
-        <p className="mt-6 text-base text-gray-700 text-left max-w-2xl">
+        <p className="mt-6 text-base text-skydark-500 text-left max-w-2xl">
           From kickoff workshops to CI/CD pipelines and observability—delivering end-to-end solutions in autonomous, cross-functional teams.
         </p>
 
         {/* Downtime Note */}
-        <p className="mt-4 text-sm text-gray-500 text-left">
-          Outside work, you’ll find me strengthening at the gym or crafting new recipes in the kitchen.
+        <p className="mt-4 text-sm text-skydark-400 text-left">
+          Outside work, you’ll find me training at the gym or crafting new recipes in the kitchen.
         </p>
+
+        {/* CTA */}
+        <a
+          href="https://www.linkedin.com/in/hirohqv"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block mt-6 px-5 py-2.5 bg-skydark-800 text-skywhite rounded-lg text-sm font-medium hover:bg-skydark-700 transition-colors"
+        >
+          Connect on LinkedIn
+        </a>
       </div>
     </div>
   );

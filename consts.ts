@@ -2,7 +2,6 @@ import { GitHub, Twitter, LinkedIn, Instagram } from "@mui/icons-material";
 export const NAVIGATION = {
   main: [
     { name: "Home", href: "/" },
-    { name: "About", href: "/" }
   ],
   social: [
     {

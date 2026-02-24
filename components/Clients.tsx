@@ -18,104 +18,103 @@ export default function Clients() {
           for full and more detailed description of my experience.
         </p>
       </div>
-      <div className="grid justify-center gap-10 text-center md:grid-cols-2 lg:grid-cols-3 pb-10">
-          <div>
+      <div className="flex flex-wrap justify-center gap-6 pb-10">
+          <div className="flex items-center justify-center bg-[#ffffff] rounded-xl p-6 shadow-sm w-[220px] h-[100px]">
             <Image
               src="/static/img/clients/mattilsynet.png"
               alt="Mattilsynet"
-              height={100}
-              width={300}
+              height={80}
+              width={200}
               className="object-contain"
             />
           </div>
-          <div>
+          <div className="flex items-center justify-center bg-[#ffffff] rounded-xl p-6 shadow-sm w-[220px] h-[100px]">
             <Image
               src="/static/img/clients/ngm.png"
               alt="Norsk Gjennvinning Metall"
-              height={100}
-              width={300}
+              height={80}
+              width={200}
               className="object-contain"
             />
           </div>
-          <div>
+          <div className="flex items-center justify-center bg-[#ffffff] rounded-xl p-6 shadow-sm w-[220px] h-[100px]">
             <Image
               src="/static/img/clients/Telenor.png"
               alt="Telenor"
-              height={100}
-              width={300}
+              height={80}
+              width={200}
               className="object-contain"
             />
           </div>
-          <div>
+          <div className="flex items-center justify-center bg-[#ffffff] rounded-xl p-6 shadow-sm w-[220px] h-[100px]">
             <Image
               src="/static/img/clients/slv.svg"
               alt="Statens Legemiddelverk"
-              height={100}
-              width={300}
+              height={80}
+              width={200}
               className="object-contain"
             />
           </div>
-
-          <div>
+          <div className="flex items-center justify-center bg-[#ffffff] rounded-xl p-6 shadow-sm w-[220px] h-[100px]">
             <Image
               src="/static/img/clients/nokas.png"
               alt="Nokas"
-              height={100}
-              width={300}
+              height={80}
+              width={200}
               className="object-contain"
             />
           </div>
-          <div>
+          <div className="flex items-center justify-center bg-[#ffffff] rounded-xl p-6 shadow-sm w-[220px] h-[100px]">
             <Image
               src="/static/img/clients/sb1.png"
               alt="Sparebank1 Utvikling"
-              height={100}
-              width={300}
+              height={80}
+              width={200}
               className="object-contain"
             />
           </div>
-          <div>
+          <div className="flex items-center justify-center bg-[#ffffff] rounded-xl p-6 shadow-sm w-[220px] h-[100px]">
             <Image
               src="/static/img/clients/Hdir.svg"
               alt="Helsedirektoratet"
-              height={100}
-              width={300}
+              height={80}
+              width={200}
               className="object-contain"
             />
           </div>
-          <div>
+          <div className="flex items-center justify-center bg-[#ffffff] rounded-xl p-6 shadow-sm w-[220px] h-[100px]">
             <Image
               src="/static/img/clients/Rema_1000.png"
               alt="Rema 1000"
-              height={100}
-              width={300}
+              height={80}
+              width={200}
               className="object-contain"
             />
           </div>
-          <div>
+          <div className="flex items-center justify-center bg-[#ffffff] rounded-xl p-6 shadow-sm w-[220px] h-[100px]">
             <Image
               src="/static/img/clients/Nav.png"
               alt="NAV"
-              height={100}
-              width={300}
+              height={80}
+              width={200}
               className="object-contain"
             />
           </div>
-          <div>
+          <div className="flex items-center justify-center bg-[#ffffff] rounded-xl p-6 shadow-sm w-[220px] h-[100px]">
             <Image
               src="/static/img/clients/Storebrand.png"
               alt="Storebrand"
-              height={100}
-              width={300}
+              height={80}
+              width={200}
               className="object-contain"
             />
           </div>
-          <div>
+          <div className="flex items-center justify-center bg-[#ffffff] rounded-xl p-6 shadow-sm w-[220px] h-[100px]">
             <Image
               src="/static/img/clients/Kongsberg_Gruppen.png"
               alt="Kongsberg Group"
-              height={100}
-              width={300}
+              height={80}
+              width={200}
               className="object-contain"
             />
           </div>
