@@ -19,105 +19,28 @@ export default function Clients() {
         </p>
       </div>
       <div className="flex flex-wrap justify-center gap-6 pb-10">
-          <div className="flex items-center justify-center bg-[#ffffff] rounded-xl p-6 shadow-sm w-[220px] h-[100px]">
-            <Image
-              src="/static/img/clients/mattilsynet.png"
-              alt="Mattilsynet"
-              height={80}
-              width={200}
-              className="object-contain"
-            />
-          </div>
-          <div className="flex items-center justify-center bg-[#ffffff] rounded-xl p-6 shadow-sm w-[220px] h-[100px]">
-            <Image
-              src="/static/img/clients/ngm.png"
-              alt="Norsk Gjennvinning Metall"
-              height={80}
-              width={200}
-              className="object-contain"
-            />
-          </div>
-          <div className="flex items-center justify-center bg-[#ffffff] rounded-xl p-6 shadow-sm w-[220px] h-[100px]">
-            <Image
-              src="/static/img/clients/Telenor.png"
-              alt="Telenor"
-              height={80}
-              width={200}
-              className="object-contain"
-            />
-          </div>
-          <div className="flex items-center justify-center bg-[#ffffff] rounded-xl p-6 shadow-sm w-[220px] h-[100px]">
-            <Image
-              src="/static/img/clients/slv.svg"
-              alt="Statens Legemiddelverk"
-              height={80}
-              width={200}
-              className="object-contain"
-            />
-          </div>
-          <div className="flex items-center justify-center bg-[#ffffff] rounded-xl p-6 shadow-sm w-[220px] h-[100px]">
-            <Image
-              src="/static/img/clients/nokas.png"
-              alt="Nokas"
-              height={80}
-              width={200}
-              className="object-contain"
-            />
-          </div>
-          <div className="flex items-center justify-center bg-[#ffffff] rounded-xl p-6 shadow-sm w-[220px] h-[100px]">
-            <Image
-              src="/static/img/clients/sb1.png"
-              alt="Sparebank1 Utvikling"
-              height={80}
-              width={200}
-              className="object-contain"
-            />
-          </div>
-          <div className="flex items-center justify-center bg-[#ffffff] rounded-xl p-6 shadow-sm w-[220px] h-[100px]">
-            <Image
-              src="/static/img/clients/Hdir.svg"
-              alt="Helsedirektoratet"
-              height={80}
-              width={200}
-              className="object-contain"
-            />
-          </div>
-          <div className="flex items-center justify-center bg-[#ffffff] rounded-xl p-6 shadow-sm w-[220px] h-[100px]">
-            <Image
-              src="/static/img/clients/Rema_1000.png"
-              alt="Rema 1000"
-              height={80}
-              width={200}
-              className="object-contain"
-            />
-          </div>
-          <div className="flex items-center justify-center bg-[#ffffff] rounded-xl p-6 shadow-sm w-[220px] h-[100px]">
-            <Image
-              src="/static/img/clients/Nav.png"
-              alt="NAV"
-              height={80}
-              width={200}
-              className="object-contain"
-            />
-          </div>
-          <div className="flex items-center justify-center bg-[#ffffff] rounded-xl p-6 shadow-sm w-[220px] h-[100px]">
-            <Image
-              src="/static/img/clients/Storebrand.png"
-              alt="Storebrand"
-              height={80}
-              width={200}
-              className="object-contain"
-            />
-          </div>
-          <div className="flex items-center justify-center bg-[#ffffff] rounded-xl p-6 shadow-sm w-[220px] h-[100px]">
-            <Image
-              src="/static/img/clients/Kongsberg_Gruppen.png"
-              alt="Kongsberg Group"
-              height={80}
-              width={200}
-              className="object-contain"
-            />
-          </div>
+          {[
+            { src: "/static/img/clients/mattilsynet.png", alt: "Mattilsynet" },
+            { src: "/static/img/clients/ngm.png", alt: "Norsk Gjennvinning Metall" },
+            { src: "/static/img/clients/Telenor.png", alt: "Telenor" },
+            { src: "/static/img/clients/slv.svg", alt: "Statens Legemiddelverk" },
+            { src: "/static/img/clients/nokas.png", alt: "Nokas" },
+            { src: "/static/img/clients/sb1.png", alt: "Sparebank1 Utvikling" },
+            { src: "/static/img/clients/Hdir.svg", alt: "Helsedirektoratet" },
+            { src: "/static/img/clients/Rema_1000.png", alt: "Rema 1000" },
+            { src: "/static/img/clients/Nav.png", alt: "NAV" },
+            { src: "/static/img/clients/Storebrand.png", alt: "Storebrand" },
+            { src: "/static/img/clients/Kongsberg_Gruppen.png", alt: "Kongsberg Group" },
+          ].map(({ src, alt }) => (
+            <div key={alt} className="bg-[#ffffff] rounded-xl shadow-sm w-[220px] h-[100px] overflow-hidden relative">
+              <Image
+                src={src}
+                alt={alt}
+                layout="fill"
+                className="object-contain p-4"
+              />
+            </div>
+          ))}
       </div>
     </>
   );
