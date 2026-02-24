@@ -2,7 +2,7 @@ export default function ThingsIDo() {
   return (
     <div className="py-6">
       <div>
-        <h1 className=" text-4xl text-center pb-10 pt-10">Areas of Expertise</h1>
+        <h2 className="text-4xl text-center pb-10 pt-10">Areas of Expertise</h2>
       </div>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         <div className="bg-[#ffffff] rounded-xl p-6 shadow-sm">

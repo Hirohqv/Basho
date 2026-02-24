@@ -9,8 +9,8 @@ const Home: NextPage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2 bg-skydark-50">
       <Head>
-        <title>Huy Vu</title>
-        <meta name="description" content="Huy Vu — Enterprise architect and AI strategist helping organizations modernize core systems with intelligent, cloud-native platforms." />
+        <title>Huy Vu — Senior Tech Consultant | Norway</title>
+        <meta name="description" content="Huy Vu — Senior tech consultant with 11+ years helping Norwegian enterprises modernize through cloud, AI and hands-on delivery. Available for consultant, tech lead and interim roles." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-3xl xl:px-0 flex-grow pt-8">

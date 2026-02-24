@@ -5,7 +5,7 @@ export default function Clients() {
   return (
     <>
       <div className="py-6 pb-10 pt-10">
-        <h1 className="text-center text-4xl pb-2">Companies/organizations I've worked with </h1>
+        <h2 className="text-center text-4xl pb-2">Trusted by</h2>
         <p className="text-center text-skydark-400">
           {" "}
           Request my CV on{" "}

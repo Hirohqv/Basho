@@ -17,7 +17,7 @@ export default function Welcome() {
       <div className="flex-1">
         <h2 className="text-3xl text-left">Senior tech consultant — I help Norwegian enterprises ship better, faster</h2>
         <p className="mt-2 text-left">
-          With experience across public sector, finance, telecom, retail and defence — I've led architecture, delivery and platform work at organizations like Telenor, NAV, Storebrand and Kongsberg.
+          11+ years of experience across public sector, finance, telecom, retail and defence — I've led architecture, delivery and platform work at organizations like Telenor, NAV, Storebrand and Kongsberg.
         </p>
         <div className="mt-2 text-left">
           I work alongside teams wearing these hats:
